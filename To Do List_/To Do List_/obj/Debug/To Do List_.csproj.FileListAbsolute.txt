@@ -1,0 +1,52 @@
+C:\Users\w401\Desktop\To Do List_\To Do List_\bin\Debug\To Do List_.exe.config
+C:\Users\w401\Desktop\To Do List_\To Do List_\bin\Debug\To Do List_.exe
+C:\Users\w401\Desktop\To Do List_\To Do List_\bin\Debug\To Do List_.pdb
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List_.csprojResolveAssemblyReference.cache
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\MainWindow.g.cs
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\App.g.cs
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.cache
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.lref
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\MainWindow.baml
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List_.g.resources
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To_Do_List_.Properties.Resources.resources
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List_.csproj.GenerateResource.Cache
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List_.exe
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\To Do List_.pdb
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\ToDoItem.g.cs
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\ToDoItem.baml
+C:\Users\w401\Desktop\To Do List_\To Do List_\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\To Do List_\To Do List_\bin\Debug\To Do List_.exe.config
+F:\To Do List_\To Do List_\obj\Debug\To Do List_.exe
+F:\To Do List_\To Do List_\obj\Debug\To Do List_.pdb
+F:\To Do List_\To Do List_\bin\Debug\To Do List_.exe
+F:\To Do List_\To Do List_\bin\Debug\To Do List_.pdb
+F:\To Do List_\To Do List_\obj\Debug\To Do List_.csprojResolveAssemblyReference.cache
+F:\To Do List_\To Do List_\obj\Debug\MainWindow.g.cs
+F:\To Do List_\To Do List_\obj\Debug\ToDoItem.g.cs
+F:\To Do List_\To Do List_\obj\Debug\App.g.cs
+F:\To Do List_\To Do List_\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.cache
+F:\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.lref
+F:\To Do List_\To Do List_\obj\Debug\MainWindow.baml
+F:\To Do List_\To Do List_\obj\Debug\ToDoItem.baml
+F:\To Do List_\To Do List_\obj\Debug\To Do List_.g.resources
+F:\To Do List_\To Do List_\obj\Debug\To_Do_List_.Properties.Resources.resources
+F:\To Do List_\To Do List_\obj\Debug\To Do List_.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\bin\Debug\To Do List_.exe.config
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\bin\Debug\To Do List_.exe
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\bin\Debug\To Do List_.pdb
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\ToDoItem.g.cs
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\App.g.cs
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.cache
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List__MarkupCompile.lref
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\ToDoItem.baml
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.g.resources
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To_Do_List_.Properties.Resources.resources
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.exe
+C:\Users\user\Desktop\程式期末\To Do List_\To Do List_\obj\Debug\To Do List_.pdb
