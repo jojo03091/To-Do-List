@@ -15,16 +15,16 @@
             <RowDefinition Height="50"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBox x:Name="Note" VerticalAlignment="Center" Margin="15 0" BorderThickness="0">Date : 2018/06/26</TextBox>
+        <TextBox x:Name="Note" VerticalAlignment="Center" Margin="15 0" BorderThickness="0">Date : 2018/06/27</TextBox>
 
         <Grid Margin="0,0,0,219" Grid.Row="1">
-            <Ellipse Fill="White" Height="130" Width="130" StrokeThickness="25" Stroke="LightSkyBlue" Margin="0 0 80 0"/>
-            <TextBox x:Name="Percent" VerticalAlignment="Center" Margin="70 0 150 0" BorderThickness="0" FontSize="25" Foreground="Gray">100%</TextBox>
+            <Ellipse Fill="White" Height="130" Width="130" VerticalAlignment="Center" StrokeThickness="25" Stroke="LightSkyBlue" Margin="0 0 80 0"/>
+            <TextBlock x:Name="Percent" TextAlignment="Center" VerticalAlignment="Center" Margin="70 0 150 0" FontSize="20" Foreground="Gray">100%</TextBlock>
             <Rectangle Width="15" Height="15" Stroke="Gray" StrokeThickness="1.5" Fill="White" Margin="135 30 0 0"></Rectangle>
             <Rectangle Width="15" Height="15" Stroke="Gray" StrokeThickness="1.5" Fill="LightSkyBlue" Margin="135 80 0 0"></Rectangle>
             <TextBlock VerticalAlignment="Center" Margin="230 30 0 0" Foreground="Gray">To Do</TextBlock>
             <TextBlock VerticalAlignment="Center" Margin="230 80 0 0" Foreground="Gray">Finish</TextBlock>
-            <Polygon Points="30,20 40,12 40,27 30,20" Stroke="Gray" StrokeThickness="0" Margin="140 60 0 0">
+            <Polygon Points="30,20 40,12 40,27 30,20" Stroke="Gray" StrokeThickness="0" Margin="140 55 0 0">
                 <Polygon.Fill>
                     <SolidColorBrush Color="Orange" Opacity="0.5"/>
                 </Polygon.Fill>
@@ -43,15 +43,8 @@
 
         <!-- 按鈕 -->
         <StackPanel Grid.Row="2" Orientation="Horizontal">
-            <Grid x:Name="OpenBtn">
-                <Rectangle Width="147" Height="50" Fill="Black"></Rectangle>
-                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center">Open</TextBlock>
-            </Grid>
-
-            <Grid x:Name="SaveBtn">
-                <Rectangle Width="147" Height="50" Fill="Black"></Rectangle>
-                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center">Save</TextBlock>
-            </Grid>
+            <Button Height="50" Width="145" Margin="0 0 0 0" Click="SaveBtn_Click" x:Name="FinishBtn" Background="Black" Foreground="White" FontSize="15" BorderBrush="Black">Save</Button>
+            <Button Height="50" Width="145" Margin="0 0 0 0" Click="FinishBtn_Click" x:Name="SaveBtn" Background="Black" Foreground="White"  FontSize="15" BorderBrush="Black">All Finish</Button>
         </StackPanel>
     </Grid>
 </Window>

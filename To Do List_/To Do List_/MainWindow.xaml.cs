@@ -62,7 +62,10 @@ namespace To_Do_List_
         {
             // 讀檔
             string[] lines = System.IO.File.ReadAllLines(@"C:\Users\user\Desktop\test.txt");
-            string[] note = System.IO.File.ReadAllLines(@"C:\Users\user\Desktop\note.txt");
+            string note = System.IO.File.ReadAllLines(@"C:\Users\user\Desktop\note.txt").ToString();
+
+            double finish = 0;
+            double todo = 0;
 
             // 逐行產生元件
             foreach (string line in lines)
@@ -75,14 +78,61 @@ namespace To_Do_List_
                 item.ItemName = parts[1];
 
                 if (parts[0] == "+")
+                {
+                    finish += 1;
                     item.IsChecked = true;
+                }
                 else
+                {
+                    todo += 1;
                     item.IsChecked = false;
+                }
 
                 // 放入到 StackPanel
                 ToDoStack.Children.Add(item);
-                Note.Text = note.ToString();
+                Note.Text = note + "";
+                Percent.Text = (finish / (finish + todo)) * 100 + "%";
             }
+        }
+
+        private void FinishBtn_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (ToDoItem item in ToDoStack.Children)
+            {
+                item.IsChecked = true;
+                Percent.Text = "100%";
+            }
+        }
+
+        private void SaveBtn_Click(object sender, RoutedEventArgs e)
+        {
+            string data = "";
+            string note = "";
+            double finish = 0;
+            double todo = 0;
+
+            foreach (ToDoItem item in ToDoStack.Children)
+            {
+                // 打勾符號
+                if (item.IsChecked == true)
+                {
+                    finish += 1;
+                    data += "+";
+                }
+                else
+                {
+                    todo += 1;
+                    data += "-";
+                }
+                // 文字
+                data += "|" + item.ItemName + "\r\n";
+                note = Note.Text;
+                Percent.Text = (finish / (finish + todo)) * 100 + "%";
+            }
+
+            // 存檔
+            System.IO.File.WriteAllText(@"C:\Users\user\Desktop\test.txt", data);
+            System.IO.File.WriteAllText(@"C:\Users\user\Desktop\note.txt", note);
         }
     }
 }
